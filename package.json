@@ -1,0 +1,8 @@
+{
+  "name": "fuse-linux",
+  "version": "3.6.2",
+  "repo": "clibs/fuse-linux",
+  "description": "The reference implementation of the Linux FUSE (Filesystem in Userspace) interface",
+  "keywords": [ "libfuse", "fuse", "linux" ],
+  "install": "./clib-install.sh"
+}
