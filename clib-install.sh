@@ -15,13 +15,13 @@ mkdir -p $PREFIX
 {
   mkdir -p build
   cd build
+  meson ..
   meson configure \
     --prefix=$PREFIX \
     -D utils=false \
     -D disable-mtab=true \
     -D examples=false \
     -D useroot=false
-  meson ..
   ninja
   ninja install
 }
