@@ -5,5 +5,5 @@
   "description": "The reference implementation of the Linux FUSE (Filesystem in Userspace) interface",
   "keywords": [ "libfuse", "fuse", "linux" ],
   "makefile": "clib-install.sh",
-  "install": "${SHELL:-sh} clib-install.sh"
+  "install": "sh clib-install.sh"
 }
